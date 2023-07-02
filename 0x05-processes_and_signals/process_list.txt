@@ -1,0 +1,10 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       397  0.0  0.0   7236  3948 pts/3    Ss   10:31   0:00 /bin/bash
+root       469  0.0  0.0   6972  3416 pts/3    S+   10:38   0:00  \_ bash ./1-list_your_processes
+root       471  0.0  0.0   8888  3216 pts/3    R+   10:38   0:00  |   \_ ps aux --forest
+root       470  0.0  0.0   5488   584 pts/3    S+   10:38   0:00  \_ head -50
+root       196  0.0  0.0   7236  3956 pts/2    Ss+  Jun30   0:00 /bin/bash
+root       154  0.0  0.0   7236  3984 pts/1    Ss+  Jun30   0:00 /bin/bash
+root        18  0.0  0.0   7236  3976 pts/0    Ss+  Jun30   0:00 /bin/bash
+root         1  0.0  0.0   6972  3260 ?        Ss   Jun30   0:00 /bin/bash /etc/sandbox_run.sh
+root         8  0.0  0.0  12172  6904 ?        S    Jun30   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
